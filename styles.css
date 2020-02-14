@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  background-color: #e4e4e4;
+}
+
+.container-input {
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  padding: 2%;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+
+form {
+  padding: 2%;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+input {
+  width: 200px;
+  height: 25px;
+  margin: 5%;
+  font-size: 0.8rem;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #33a8ff;
+  color: white;
+  font-size: 0.8rem;
+  outline: none;
+}
+
+p {
+  color: #0073c8;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="index.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Roman Numeral Calculator</title>
+  </head>
+  <body>
+    <div class="container-input">
+      <form>
+        <label for="inNum">Please enter a positive integer</label><br />
+        <input type="number" id="inNum" onkeyup="setNum(this)" /><br />
+        <button type="button" onclick="getNum()">Get Roman Numeral</button>
+      </form>
+      <p id="outcome"></p>
+    </div>
+  </body>
+</html>
